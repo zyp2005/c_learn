@@ -63,6 +63,7 @@ void findAllDirs(const char *path)
     if ((dp = opendir(path)) == NULL)
     {
         fprintf(stderr, "The path %s is wrong!\n", path);
+        perror
         return;
     }
 
