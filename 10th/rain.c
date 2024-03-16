@@ -23,7 +23,7 @@ int main(void)
     }
     printf("\nThe yearly average if %.1f inchea.\n\n", total / YEARS);
     printf("MONTHLY AVERAGES:\n\n");
-    printf(" Jan  Feb  Mar  Jun  Jul  Aug  Sep  Oct ");
+    printf(" Jan  Feb  Mar  Apr  May Jun  Jul  Aug  Sep  Oct ");
     printf(" Nov  Dec\n");
 
     for (month = 0; month < MONTHS; month++)

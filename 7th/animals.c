@@ -29,7 +29,7 @@ int main(void)
             case 'e':
                 printf("fisher, brownish marten\n");
                 break;
-            defaut:
+            default:
                 printf("That's s stumper!\n");
             }
         else
@@ -38,6 +38,7 @@ int main(void)
             continue;
         printf("Please type anoterh letter or a #.\n");
     }
+    printf("Bye!\n");
 
     return 0;
 }

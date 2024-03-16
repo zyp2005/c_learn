@@ -1,5 +1,4 @@
 // sum_arr1.c -- 数组元素之和
-#include <ctype.h>
 #include <stdio.h>
 #define SIZE 10
 int sum(int ar[], int n);

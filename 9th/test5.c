@@ -15,7 +15,7 @@ int main(void)
     return 0;
 }
 
-    void larger_of(double * pt_x, double * pt_y)
+void larger_of(double * pt_x, double * pt_y)
 {
     *pt_x = (*pt_x >= *pt_y) ? *pt_x : *pt_y;
     *pt_y = *pt_x;

@@ -10,11 +10,18 @@ int main(void)
 {
     char i, j;
 
-    for(i=1; i<=6; i++)
+    /* for(i=1; i<=6; i++) */
+    /* { */
+    /*     for (j = 'F'; j > 'F' - i; j--) */
+    /*         printf("%c", j); */
+    /*     printf("\n"); */
+    /* } */
+
+    for(i = 'F'; i >= 'A'; i--)
     {
-        for (j = 'F'; j > 'F' - i; j--)
+        for (j = 'F'; j >= i; j--)
             printf("%c", j);
-        printf("\n"); 
+        printf("\n");
     }
 
     return 0;

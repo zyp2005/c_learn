@@ -30,7 +30,7 @@ double power(double num, int p)
 {
 
     double result = 1;
-    if (num == 0 && p != 0)
+    if (num != 0 && p == 0)
         result = 1;
     else if (num == 0 && p == 0)
         printf("0的0次幂未定义!\n");

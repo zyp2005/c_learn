@@ -46,7 +46,7 @@ void sum_cols(int ar[][COLS], int rows)
         tot = 0;
         for (r = 0; r < rows; r++)
             tot += ar[r][c];
-        printf("col %d: sum = %d\n",c, tot);
+        printf("col %d: sum = %d\n", c, tot);
     }
 }
 

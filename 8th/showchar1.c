@@ -26,6 +26,6 @@ void display(char cr, int lines, int width)
     {
         for (col = 1; col <= width; col++)
             putchar(cr);
-        putwchar('\n');
+        putchar('\n');
     }
 }

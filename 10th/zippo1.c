@@ -6,6 +6,7 @@ int main(void)
 
     printf("   zippo = %p,    zippo + 1 = %p\n", zippo, zippo + 1);
     printf("zippo[0] = %p, zippo[0] + 1 = %p\n", zippo[0], zippo[0] + 1);
+    printf("&zippo[0] = %p, &zippo[0] + 1 = %p\n", &zippo[0], &zippo[0] + 1);
     printf("  *zippo = %p,   *zippo + 1 = %p\n", *zippo, *zippo + 1);
     printf("zippo[0][0] = %d\n", zippo[0][0]);
     printf("  *zippo[0] = %d\n", *zippo[0]);

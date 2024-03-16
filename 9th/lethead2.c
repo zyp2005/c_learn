@@ -24,7 +24,7 @@ int main(void)
 
     printf("%s\n", PLACE);
     show_n_char('*', WIDTH);
-    putwchar('\n');
+    putchar('\n');
 
     return 0;
 }
